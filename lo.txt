@@ -1,0 +1,41 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Ocean Hub | By serfux Joe", "Ocean")
+    -- MAIN
+    local Main = Window:NewTab("Main cheats")
+    local MainSection = Main:NewSection("Main cheats")
+
+    MainSection:NewButton("ESP", "shows players places through walls", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/SerfuxJoe/lemoHub/main/ocean-wallhacks.txt',true))()
+    end)
+
+  MainSection:NewButton("Aimlock", "Aimlocks on players", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Exunys/Aimbot-Script/main/Aimbot%20Script.lua',true))()
+    end)
+    
+      MainSection:NewButton("Wallbang", "wallbang walls", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/SerfuxJoe/lemoHub/main/ocean-wallh.txt',true))()
+    end)
+    
+        -- MAIN2
+    local Second = Window:NewTab("weapon settings")
+    local SecondSection = Second:NewSection("weapon settings")
+
+    SecondSection:NewButton("no recoil", "no recoil for all weapons", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/SerfuxJoe/lemoHub/main/ocean-no-recoil.txt',true))()
+    end)
+
+  SecondSection:NewButton("infinite ammo ", "infinite ammo for all weapons", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/SerfuxJoe/lemoHub/main/ocean-ammo.txt',true))()
+    end)
+    
+           -- MAIN2
+    local Third = Window:NewTab("player mod menu")
+    local ThirdSection = Third:NewSection("character mod menu")
+
+    ThirdSection:NewButton("no recoil", "no recoil for all weapons", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/SerfuxJoe/lemoHub/main/ocean-no-recoil.txt',true))()
+    end)
+
+  ThirdSection:NewButton("infinite ammo ", "infinite ammo for all weapons", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/SerfuxJoe/lemoHub/main/ocean-ammo.txt',true))()
+    end)
