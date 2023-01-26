@@ -1,0 +1,4 @@
+local ignore = workspace.NoRay:GetChildren();
+table.insert(ignore, char)
+	
+local part, position, normal = game.Workspace:FindPartOnRayWithIgnoreList(ray, ignore)
